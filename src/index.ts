@@ -1,9 +1,9 @@
-import {ApplicationConfig, ApiRestauranteApplication} from './application';
+import {ApplicationConfig, AppRestauranteApplication} from './application';
 
 export * from './application';
 
 export async function main(options: ApplicationConfig = {}) {
-  const app = new ApiRestauranteApplication(options);
+  const app = new AppRestauranteApplication(options);
   await app.boot();
   await app.start();
 

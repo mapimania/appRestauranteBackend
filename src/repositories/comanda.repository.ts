@@ -1,16 +1,16 @@
 import {inject} from '@loopback/core';
 import {DefaultCrudRepository} from '@loopback/repository';
 import {DataDataSource} from '../datasources';
-import {Producto, ProductoRelations} from '../models';
+import {Comanda, ComandaRelations} from '../models';
 
-export class ProductoRepository extends DefaultCrudRepository<
-  Producto,
-  typeof Producto.prototype.idProducto,
-  ProductoRelations
+export class ComandaRepository extends DefaultCrudRepository<
+  Comanda,
+  typeof Comanda.prototype.idComanda,
+  ComandaRelations
 > {
   constructor(
     @inject('datasources.data') dataSource: DataDataSource,
   ) {
-    super(Producto, dataSource);
+    super(Comanda, dataSource);
   }
 }

@@ -1,19 +1,31 @@
 import {Entity, model, property} from '@loopback/repository';
 
 @model()
-export class Producto extends Entity {
+export class DetalleComanda extends Entity {
   @property({
     type: 'number',
     id: true,
     generated: true,
   })
-  idProducto?: number;
+  idDetalleComanda?: number;
 
   @property({
     type: 'number',
     required: true,
   })
-  idCategoria: number;
+  idProducto: number;
+
+  @property({
+    type: 'number',
+    required: true,
+  })
+  idComanda: number;
+
+  @property({
+    type: 'number',
+    required: true,
+  })
+  cantidad: number;
 
   @property({
     type: 'number',
@@ -21,25 +33,14 @@ export class Producto extends Entity {
   })
   precio: number;
 
-  @property({
-    type: 'string',
-    required: true,
-  })
-  nombre: string;
 
-  @property({
-    type: 'string',
-  })
-  ingredientes?: string;
-
-
-  constructor(data?: Partial<Producto>) {
+  constructor(data?: Partial<DetalleComanda>) {
     super(data);
   }
 }
 
-export interface ProductoRelations {
+export interface DetalleComandaRelations {
   // describe navigational properties here
 }
 
-export type ProductoWithRelations = Producto & ProductoRelations;
+export type DetalleComandaWithRelations = DetalleComanda & DetalleComandaRelations;
