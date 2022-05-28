@@ -1,15 +1,16 @@
 {
   "ids": {
     "Producto": 2,
-    "Categorias": 3
+    "Categorias": 4
   },
   "models": {
     "Producto": {
       "1": "{\"idCategoria\":1,\"precio\":20,\"nombre\":\"Coca-cola 600ml\",\"ingredientes\":\"coca\",\"idProducto\":1}"
     },
     "Categorias": {
-      "1": "{\"nombre\":\"Bebidas\",\"idCategoria\":1}",
-      "2": "{\"nombre\":\"Entradas\",\"idCategoria\":2}"
+      "1": "{\"idCategoria\":1,\"nombre\":\"Bebidas\",\"descripcion\":\"modulo de bebidas\"}",
+      "2": "{\"idCategoria\":2,\"nombre\":\"Entradas\",\"descripcion\":\"categoria que muestra las entradas\"}",
+      "3": "{\"nombre\":\"platillos\",\"descripcion\":\"para la variedad de platillos\",\"idCategoria\":3}"
     }
   }
 }
