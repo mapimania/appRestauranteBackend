@@ -1,0 +1,15 @@
+{
+  "ids": {
+    "Producto": 2,
+    "Categorias": 3
+  },
+  "models": {
+    "Producto": {
+      "1": "{\"idCategoria\":1,\"precio\":20,\"nombre\":\"Coca-cola 600ml\",\"ingredientes\":\"coca\",\"idProducto\":1}"
+    },
+    "Categorias": {
+      "1": "{\"nombre\":\"Bebidas\",\"idCategoria\":1}",
+      "2": "{\"nombre\":\"Entradas\",\"idCategoria\":2}"
+    }
+  }
+}
