@@ -27,6 +27,12 @@ export class Comanda extends Entity {
   })
   fecha: string;
 
+  @property({
+    type: 'string',
+    required: true,
+  })
+  estado: string;
+
 
   constructor(data?: Partial<Comanda>) {
     super(data);

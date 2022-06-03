@@ -1,16 +1,29 @@
 {
   "ids": {
-    "Producto": 2,
-    "Categorias": 4
+    "Producto": 4,
+    "Categorias": 4,
+    "DetalleComanda": 3,
+    "Comanda": 15
   },
   "models": {
     "Producto": {
-      "1": "{\"idCategoria\":1,\"precio\":20,\"nombre\":\"Coca-cola 600ml\",\"ingredientes\":\"coca\",\"idProducto\":1}"
+      "1": "{\"idCategoria\":1,\"precio\":20,\"nombre\":\"Coca-cola 600ml\",\"ingredientes\":\"coca\",\"idProducto\":1}",
+      "2": "{\"idCategoria\":2,\"precio\":60,\"nombre\":\"ensalada de pollo\",\"ingredientes\":\"pollo,lechuga,jitomate\",\"idProducto\":2}",
+      "3": "{\"idCategoria\":3,\"precio\":150,\"nombre\":\"Pizza mediana mexicana\",\"ingredientes\":\"cebolla,jitomate,piña\",\"idProducto\":3}"
     },
     "Categorias": {
       "1": "{\"idCategoria\":1,\"nombre\":\"Bebidas\",\"descripcion\":\"modulo de bebidas\"}",
       "2": "{\"idCategoria\":2,\"nombre\":\"Entradas\",\"descripcion\":\"categoria que muestra las entradas\"}",
       "3": "{\"nombre\":\"platillos\",\"descripcion\":\"para la variedad de platillos\",\"idCategoria\":3}"
+    },
+    "DetalleComanda": {
+      "1": "{\"idProducto\":1,\"idComanda\":1,\"cantidad\":1,\"idDetalleComanda\":1}",
+      "2": "{\"idProducto\":1,\"idComanda\":1,\"cantidad\":1,\"idDetalleComanda\":2}"
+    },
+    "Comanda": {
+      "12": "{\"cliente\":\"Publico general\",\"total\":0,\"fecha\":\"2022-06-03T21:37:41.000Z\",\"estado\":\"inicio\",\"idComanda\":12}",
+      "13": "{\"cliente\":\"Publico general\",\"total\":0,\"fecha\":\"2022-06-03T21:37:58.768Z\",\"estado\":\"inicio\",\"idComanda\":13}",
+      "14": "{\"cliente\":\"Publico general\",\"total\":0,\"fecha\":\"2022-06-03T21:40:17.801Z\",\"estado\":\"inicio\",\"idComanda\":14}"
     }
   }
 }

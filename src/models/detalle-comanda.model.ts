@@ -27,12 +27,6 @@ export class DetalleComanda extends Entity {
   })
   cantidad: number;
 
-  @property({
-    type: 'number',
-    required: true,
-  })
-  precio: number;
-
 
   constructor(data?: Partial<DetalleComanda>) {
     super(data);
