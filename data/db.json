@@ -3,7 +3,7 @@
     "Producto": 4,
     "Categorias": 4,
     "DetalleComanda": 3,
-    "Comanda": 15
+    "Comanda": 485
   },
   "models": {
     "Producto": {
@@ -21,9 +21,8 @@
       "2": "{\"idProducto\":1,\"idComanda\":1,\"cantidad\":1,\"idDetalleComanda\":2}"
     },
     "Comanda": {
-      "12": "{\"cliente\":\"Publico general\",\"total\":0,\"fecha\":\"2022-06-03T21:37:41.000Z\",\"estado\":\"inicio\",\"idComanda\":12}",
-      "13": "{\"cliente\":\"Publico general\",\"total\":0,\"fecha\":\"2022-06-03T21:37:58.768Z\",\"estado\":\"inicio\",\"idComanda\":13}",
-      "14": "{\"cliente\":\"Publico general\",\"total\":0,\"fecha\":\"2022-06-03T21:40:17.801Z\",\"estado\":\"inicio\",\"idComanda\":14}"
+      "481": "{\"cliente\":\"Publico general\",\"total\":0,\"fecha\":\"2022-06-10T20:06:40.342Z\",\"estado\":\"inicio\",\"idComanda\":481}",
+      "484": "{\"cliente\":\"Publico general\",\"total\":0,\"fecha\":\"2022-06-10T23:03:12.914Z\",\"estado\":\"inicio\",\"idComanda\":484}"
     }
   }
 }
